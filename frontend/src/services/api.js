@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL: "https://cinevault-hek5.onrender.com",    // http://localhost:5000
 });
 
 // attach JWT automatically
